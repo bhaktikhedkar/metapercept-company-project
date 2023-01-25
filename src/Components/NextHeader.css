@@ -1,0 +1,24 @@
+.nxt-header{
+     background-image: linear-gradient(to right, rgb(65, 98, 244),purple);
+    /* background-color: blueviolet;*/
+    margin-bottom: 5rem;
+} 
+.nxt-title{
+    color: whitesmoke;
+    font-size : 50px;
+    font-weight: 0.2rem;
+    /* margin-bottom: rem; */
+}
+.para{
+    text-align: center;
+    /* margin-bottom: 2rem; */
+    color: whitesmoke;
+    /* padding: 100px ; */
+    padding-right: 100px;
+    padding-left: 100px;
+}
+.btn{
+    color: black;
+    margin-bottom: 2rem;
+    font-size: medium;
+}

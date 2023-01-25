@@ -1,0 +1,20 @@
+.div-foot{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap : 1rem;
+    background-color: whitesmoke;
+}
+.foot{
+    color: gray;
+}
+.bck{
+    display: flex;
+    justify-content: flex-end;
+    color: rgb(7, 161, 222);
+}
+.bck:hover{
+  color: blue;
+  transition: all 0.3s;
+  cursor: pointer;
+}

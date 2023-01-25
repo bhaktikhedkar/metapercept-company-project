@@ -1,0 +1,40 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap : 1rem;
+    background-color: whitesmoke;
+}
+.title{
+   font-weight: 600px;
+   font-size: larger;
+   color: gray;
+}
+.links{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap :1rem;
+    list-style-type: none;
+    padding-left: 1rem;
+    text-decoration: none;
+    list-style: none;
+    text-decoration-line: none;
+}
+.btn{
+    background-color: aliceblue;
+    color: blue;
+    border-color: blue;
+    border-radius: 0.5rem;
+    font-weight: 600px;
+    font-size: larger;
+    padding: 0.8rem 0.8rem;
+   cursor: pointer;
+   transition: all 0.3s;
+}
+
+.links, .btn:hover{
+    color: aqua;
+    cursor: pointer;
+   transition: all 0.3s;
+}
