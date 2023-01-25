@@ -59,11 +59,22 @@ function Images() {
     "Name": "MadCap Flare",
     "ShortDesc": "This course focuses on developing technical writing skills to deepen the knowledge of Madcap Flare for writing specialized content in structured format using DITA-XML and other structured formats. This course use a combination of lectures, demonstrations, and hands-on practice exercises to explore the major features of Flare."
   }]
+  
   return (
   <>
  {/* <p>{arr.ID}</p> */}
  
- <h1>{arr.Name}</h1>
+ {arr.map((arra)=>{
+  <div className="images">
+   <p>Add Image</p>
+   <p>{arra.ID}</p>
+  {console.log(arra.ID)} 
+   <p>{arra.Name}</p>
+   <p>{arra.ShortDesc}</p>
+   </div>
+ })
+ 
+ }
  <Footer />
 
   </>);
